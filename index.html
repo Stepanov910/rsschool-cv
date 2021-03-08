@@ -1,71 +1,78 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Stsiapanau</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-   <header>
-       <h1>Andrey Stsiapanau</h1>
-       <img src="foto.jpg" alt="My foto"></img> 
-    </header> 
-<main>
-    <div>
-       <h3>Contacts:</h3>
-       <ul>
-          <li>Mobile phone: +375336623175</li>
-          <li>Email: stepanov121089@gmail.com</li>
-          <li>Skype: Stepanov910</li>
-        </ul>
-    </div>
-    <div>
-        <h3>About Me:</h3>
-        <ul>
-            <li>I want to master a new specialty and find a place for myself in IT.</li>   
-            <li>Hardworking, assiduous, able to learn quickly.</li>
-        </ul>
-    </div>       
-    <section> 
-        <h3>Skills:</h3>
-        <ul>
-            <li>I'm taking JS courses.</li>
-        </ul>
-    </section>        
-    <article> 
-        <h3>Sample code:</h3>
-        <pre>
+    <div class="content-wrapper">
+        <header>
+            <h1>Andrey Stsiapanau</h1>
+            <img src="photo.jpg" alt="MyPhoto">
+        </header>
+        <main>
+            <div>
+                <h3>Contacts:</h3>
+                <ul>
+                    <li>Mobile phone: +375336623175</li>
+                    <li>Email: stepanov121089@gmail.com</li>
+                    <li>Skype: Stepanov910</li>
+                </ul>
+            </div>
+            <div>
+                <h3>About Me:</h3>
+                <ul>
+                    <li>I want to master a new specialty and find a place for myself in IT.</li>
+                    <li>Hardworking, assiduous, able to learn quickly.</li>
+                </ul>
+            </div>
+            <section>
+                <h3>Skills:</h3>
+                <ul>
+                    <li>I'm taking JS courses.</li>
+                </ul>
+            </section>
+            <article>
+                <h3>Sample code:</h3>
+                <pre>
     function digital_root_string(n) {
         return n.toString().split("").reduce((s, d) => s + parseInt(d), 0);
     }
         </pre>
-        <pre>
+         <pre>
     function digital_root_recurse(n) {
-        return n < 10 ? n : n % 10 + digital_root_recurse(Math.floor(n / 10));
+        return n &gt; 10 ? n : n % 10 + digital_root_recurse(Math.floor(n / 10));
     }
         </pre>
-    </article>    
-    <div>
-        <h3>Experience:</h3>
-        <ul>
-            <li>I'm just studying.</li>
-        </ul>
+            </article>
+            <div>
+                <h3>Experience:</h3>
+                <ul>
+                    <li>I'm just studying.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Education:</h3>
+                <ul>
+                    <li>Finished BELSUT with a degree in electrical engineer.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>English language:</h3>
+                <ul>
+                    <li>A1</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+        </footer>
     </div>
-    <div>
-        <h3>Education:</h3>
-        <ul>
-            <li>Finished BELSUT with a degree in electrical engineer.</li>
-        </ul>
-    </div>
-    <div>
-        <h3>English language:</h3>
-        <ul>
-            <li>A1</li>
-        </ul>
-    </div>
-</main>
-<footer>
-</footer>
 </body>
+
 </html>
+
