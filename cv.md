@@ -8,7 +8,7 @@
 ## Skills:
 * I'm taking JS courses
 ## Sample code:
-***
+`
 function digital_root_string(n) {
   return n.toString().split("").reduce((s, d) => s + parseInt(d), 0);
 }
@@ -16,4 +16,4 @@ function digital_root_string(n) {
 function digital_root_recurse(n) {
   return n < 10 ? n : n % 10 + digital_root_recurse(Math.floor(n / 10));
 }
-***
+`
