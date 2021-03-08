@@ -6,7 +6,7 @@
 ## About Me:
 * I want to master a new specialty and find a place for myself in IT.   Hardworking, assiduous, able to learn quickly.
 ## Skills:
-* I'm taking JS courses
+* I'm taking JS courses.
 ## Sample code:
 ```
 function digital_root_string(n) {
@@ -17,3 +17,9 @@ function digital_root_recurse(n) {
   return n < 10 ? n : n % 10 + digital_root_recurse(Math.floor(n / 10));
 }
 ```
+## Experience:
+* I'm just studying.
+## Education:
+* Finished BELSUT with a degree in electrical engineer.
+## English language:
+* A1
